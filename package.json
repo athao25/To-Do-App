@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "scripts": {
+    "start:docker": "docker-compose up",
+    "start:react": "cd client && npm start",
+    "start:server": "cd server && npm start",
+    "start": "npm run start:docker & concurrently \"npm run start:react\" \"npm run start:server\""
+  }
+
+}
