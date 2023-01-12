@@ -1,1 +1,1 @@
-# mern-todo-app
+To Do App - MERN Stack
